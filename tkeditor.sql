@@ -1,0 +1,16 @@
+CREATE DATABASE TKEditor
+GO
+
+DROP DATABASE TKEditor
+Use TKEditor
+GO
+
+CREATE TABLE INFOR
+(
+	id int identity PRIMARY KEY,
+	content NTEXT,
+	added_on Date
+)
+GO
+
+DROP TABLE INFOR
